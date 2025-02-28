@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profiles</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body { display: flex; justify-content: center; align-items: center; height: 100vh; background: linear-gradient(135deg, #1e3c72, #2a5298); }
+        .container { text-align: center; padding: 40px; background: rgba(255, 255, 255, 0.1); border-radius: 15px; backdrop-filter: blur(10px); box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); }
+        h1 { color: white; margin-bottom: 20px; font-size: 28px; }
+        .btn { display: block; width: 200px; padding: 15px; margin: 15px auto; text-decoration: none; font-size: 18px; color: white; background: rgba(255, 255, 255, 0.2); border-radius: 10px; transition: transform 0.3s ease, background 0.3s ease; }
+        .btn:hover { background: rgba(255, 255, 255, 0.5); transform: scale(1.1) rotate(5deg); }
+        .btn.linkedin { background: #0077b5; }
+        .btn.github { background: #333; }
+        .btn.portfolio { background: #A31D1D; }
+        .btn.portfolio:hover { background: #e68900; }
+        .btn.linkedin:hover { background: #005582; }
+        .btn.github:hover { background: #1a1a1a; }
+        @media (max-width: 600px) {
+            .container { width: 90%; padding: 30px; }
+            h1 { font-size: 24px; }
+            .btn { width: 100%; font-size: 16px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="https://www.linkedin.com/in/shaik-sohel-711819304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="btn linkedin" target="_blank">LinkedIn Profile</a>
+        <a href="https://github.com/sohelshaik31" class="btn github" target="_blank">GitHub Profile</a>
+        <a href="https://sohelshaik31.github.io/Portfolio/" class="btn portfolio" target="_blank">Portfolio Website</a>
+    </div>
+</body>
+</html>
